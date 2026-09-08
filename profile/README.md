@@ -150,12 +150,15 @@ o que o servidor recusa é a regra.
 
 ## Repositórios
 
-| Repositório                                                | O que é                                                  |
-| ---------------------------------------------------------- | -------------------------------------------------------- |
-| [`haushub`](https://github.com/haushubapp/haushub)          | Monorepo do frontend — web, mobile e o pacote de domínio |
-| [`haushub-api`](https://github.com/haushubapp/haushub-api)  | A API — Fastify, PostgreSQL, 57 rotas                    |
+| Repositório                                                | O que é                                                          |
+| ---------------------------------------------------------- | ---------------------------------------------------------------- |
+| [`haushub`](https://github.com/haushubapp/haushub)          | Monorepo do frontend — web, mobile e o pacote de domínio         |
+| [`haushub-api`](https://github.com/haushubapp/haushub-api)  | A API — Fastify, PostgreSQL, 57 rotas                            |
+| `@haushubapp/shared`                                        | O domínio, publicado deste monorepo e instalado pela API         |
 
-Ambos privados por enquanto.
+Os dois repositórios são privados por enquanto, e o pacote é restrito à organização. O domínio é
+publicado em vez de copiado pelo motivo que [Como é feito](#como-é-feito) dá: uma regra escrita uma
+vez não pode divergir entre a tela, o aplicativo e o servidor.
 
 ---
 
